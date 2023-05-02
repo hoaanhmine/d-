@@ -1213,6 +1213,189 @@ class PlayState extends MusicBeatState
 		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script1.lua')));
 		#end
 
+		#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script2.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script2.lua')));
+		
+		#end
+		
+		
+        #if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script3.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script3.lua')));
+		#end
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script4.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script4.lua')));
+		#end
+
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script5.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script5.lua')));
+		#end
+
+
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script6.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/script6.lua')));
+		#end
+
+
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/1.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/1.lua')));
+		#end
+
+
+
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/2.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/2.lua')));
+		#end
+
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/3.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/3.lua')));
+		#end
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/4.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/4.lua')));
+		#end
+
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/5.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/5.lua')));
+		#end
+
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/6.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/6.lua')));
+		#end
+		
+		
+		#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/7.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/7.lua')));
+		#end
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/8.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/8.lua')));
+		#end
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/9.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/9.lua')));
+		#end
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/10.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/10.lua')));
+		#end
+
+#if LUA_ALLOWED
+		var doPush:Bool = false;
+		if (OpenFlAssets.exists('assets/data/' + Paths.formatToSongPath(SONG.song) + '/credit.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/data/' + Paths.formatToSongPath(SONG.song) + '/credit.lua')));
+		#end
+		
 		var daSong:String = Paths.formatToSongPath(curSong);
 		if (isStoryMode && !seenCutscene)
 		{
