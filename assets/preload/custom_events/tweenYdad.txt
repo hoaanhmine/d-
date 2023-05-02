@@ -1,0 +1,2 @@
+Value 1: target Y
+Value 2: duration

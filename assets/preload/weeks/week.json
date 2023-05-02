@@ -1,0 +1,32 @@
+{
+	"storyName": "skel key and double pick",
+	"difficulties": "rooms, impossible, cringe",
+	"hideFreeplay": false,
+	"weekBackground": "rooms",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		253,
+		113,
+		146
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"rooms",
+			"a60",
+			[
+				250,
+				20,
+				20
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}

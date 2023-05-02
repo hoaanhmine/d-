@@ -1,0 +1,2 @@
+Value 1: the tag name of the stage
+Value 2: duration
